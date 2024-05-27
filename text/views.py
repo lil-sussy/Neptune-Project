@@ -1,16 +1,17 @@
-# myapp/views.py
+# views.py
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .serializers import DocumentSerializer
-import chromadb
-from chromadb.config import Settings
 from datetime import datetime
-import logger
 import requests
-from dotenv import load_dotenv
 import logging
 import colorlog
+from django.conf import settings
+from .chroma_singleton import ChromaClientSingleton  # Singleton Chroma client
+from dotenv import load_dotenv
+import os
+import json
 
 # ANSI escape sequences
 WHITE = "\033[97m"
@@ -34,17 +35,13 @@ formatter = colorlog.ColoredFormatter(
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Change this to DEBUG if you want to see debug logs
+logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
-
-# Disable propagation to prevent double logging in Django
 logger.propagate = False
 
 # Load environment variables
 load_dotenv()
-import os
 api_key = os.getenv('OPENAI_API_KEY')
-
 
 def get_embeddings_openai(texts):
     headers = {
@@ -73,7 +70,7 @@ class SaveDocumentView(APIView):
             tags = data['tags']
             timestamp = datetime.now().isoformat()
 
-            client = chromadb.Client(Settings(chroma_db_impl="duckdb+parquet", persist_directory="/path/to/your/directory"))
+            client = ChromaClientSingleton.get_instance()
 
             # Collection 1: Embedding from Title
             collection1 = client.get_or_create_collection(name="title_embeddings")
@@ -86,7 +83,7 @@ class SaveDocumentView(APIView):
                     "last_edit": timestamp,
                     "previous_version_text": content,
                     "previous_version_title": title,
-                    "tags": tags
+                    "tags": json.dumps(tags)
                 }],
                 ids=[f"title_{title}_{timestamp}"]
             )
@@ -102,26 +99,13 @@ class SaveDocumentView(APIView):
                     "last_edit": timestamp,
                     "previous_version_text": content,
                     "previous_version_title": title,
-                    "tags": tags
+                    "tags": json.dumps(tags)
                 }],
                 ids=[f"content_{title}_{timestamp}"]
             )
 
             return Response({"message": "Document saved successfully"}, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-import chromadb
-from chromadb.config import Settings
-from datetime import datetime
-from WriteStackAI import settings
-
-# Helper function to get ChromaDB client
-def get_chromadb_client():
-    return chromadb.Client(Settings(chroma_db_impl="duckdb+parquet", persist_directory=settings.CHRMADB_PERSIST_DIR))
 
 class EditDocumentView(APIView):
     def post(self, request, id):
@@ -131,7 +115,7 @@ class EditDocumentView(APIView):
         tags = data.get('tags')
         timestamp = datetime.now().isoformat()
         
-        client = get_chromadb_client()
+        client = ChromaClientSingleton.get_instance()
         collections = ["title_embeddings", "content_embeddings"]
         
         for collection_name in collections:
@@ -145,7 +129,7 @@ class EditDocumentView(APIView):
                     "last_edit": timestamp,
                     "previous_version_text": content,
                     "previous_version_title": title,
-                    "tags": tags
+                    "tags": json.dumps(tags)
                 }]
             )
         
@@ -153,7 +137,7 @@ class EditDocumentView(APIView):
 
 class DeleteDocumentView(APIView):
     def delete(self, request, id):
-        client = get_chromadb_client()
+        client = ChromaClientSingleton.get_instance()
         collections = ["title_embeddings", "content_embeddings"]
         
         for collection_name in collections:
@@ -164,7 +148,7 @@ class DeleteDocumentView(APIView):
 
 class GetDocumentView(APIView):
     def get(self, request, id):
-        client = get_chromadb_client()
+        client = ChromaClientSingleton.get_instance()
         collection = client.get_or_create_collection(name="content_embeddings")  # Or the appropriate collection
         result = collection.get(ids=[id])
         
@@ -176,7 +160,7 @@ class GetDocumentView(APIView):
         
         response_data = {
             "document": document_data,
-            "metadata": metadata
+            "metadata": json.loads(metadata)
         }
         
         return Response(response_data, status=status.HTTP_200_OK)
