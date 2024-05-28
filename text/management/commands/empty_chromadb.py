@@ -14,13 +14,7 @@ class Command(BaseCommand):
             collections = ["title_embeddings", "content_embeddings"]
 
             for collection_name in collections:
-                collection = client.get_or_create_collection(name=collection_name)
-                all_ids = collection.get()['ids']
-                if all_ids:
-                    collection.delete(ids=all_ids)
-                    self.stdout.write(self.style.SUCCESS(f'Successfully emptied collection {collection_name}'))
-                else:
-                    self.stdout.write(self.style.WARNING(f'Collection {collection_name} is already empty'))
+                client.delete_collection(name=collection_name)
 
         except Exception as e:
             raise CommandError(f'Error emptying ChromaDB collections: {e}')

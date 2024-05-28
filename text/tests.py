@@ -12,7 +12,8 @@ def generate_random_id():
 def print_blue(message):
     print(f"\033[94m{message}\033[0m")
 
-def test_save_document(client, url, sample_data):    print_blue("Starting test_save_document")
+def test_save_document(client, url, sample_data):
+    print_blue("Starting test_save_document")
     response = client.post(url, sample_data, format='json')
     assert response.status_code == status.HTTP_201_CREATED, f"Expected 201, got {response.status_code}"
     response_data = json.loads(response.content)
