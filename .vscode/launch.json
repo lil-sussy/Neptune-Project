@@ -25,6 +25,19 @@
       "django": true,
       "autoStartBrowser": false,
       "program": "${workspaceFolder}/manage.py"
-    }
+    },
+    {
+      "name": "Django Test \"text\" With pre deletion",
+      "type": "debugpy",
+      "request": "launch",
+      "args": [
+        "test",
+        "text"
+      ],
+      "django": true,
+      "autoStartBrowser": false,
+      "program": "${workspaceFolder}/manage.py",
+      "preLaunchTask": "Empty ChromaDB Collections"
+    },
   ]
 }

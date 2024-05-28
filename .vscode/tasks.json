@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Empty ChromaDB Collections",
+      "type": "shell",
+      "command": "python manage.py empty_chromadb",
+      "problemMatcher": []
+    }
+  ]
+}
