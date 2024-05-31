@@ -1,0 +1,51 @@
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme';
+@use '@carbon/react/scss/components/button/tokens' as button-tokens;
+@use '@carbon/themes/scss/utilities';
+@use '@carbon/react/scss/components/button';
+@use '@carbon/react/scss/components/text-input';
+@use '@carbon/react/scss/components/checkbox';
+@use '@carbon/react/scss/components/fluid-text-input';
+@use '@carbon/react/scss/components/search';
+@use '@carbon/react/scss/components/fluid-search';
+@use '@carbon/react/scss/components/contained-list';
+@use '@carbon/react/scss/components/inline-loading';
+@use '@carbon/react/scss/components/data-table';
+@use '@carbon/react/scss/components/menu';
+@use '@carbon/react/scss/components/select';
+@use '@carbon/react/scss/components/tile';
+@use '@carbon/react/scss/components/progress-bar';
+@use '@carbon/react/scss/components/treeview' ;
+@use '@carbon/react/scss/components/text-area' ;
+@import'@carbon/react/scss/theme';
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+:root {
+  @include theme.theme(themes.$g100);
+}
+
+.g10 {
+  @include theme.theme(themes.$g10);
+}
+
+.g90 {
+  @include theme.theme(themes.$g90);
+}
+
+.g100 {
+  @include theme.theme(themes.$g100);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
