@@ -6,6 +6,48 @@
       "type": "shell",
       "command": "python manage.py empty_chromadb",
       "problemMatcher": []
+    },
+    {
+      "label": "npm: start",
+      "type": "npm",
+      "script": "start",
+      "group": "build",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/frontend",
+      },
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "..."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Compiled successfully",
+          "endsPattern": "^Failed to compile"
+        }
+      }
+    },
+    {
+      "label": "npm: build",
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/frontend",
+      },
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "..."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Compiled successfully",
+          "endsPattern": "^Failed to compile"
+        }
+      }
     }
   ]
 }
