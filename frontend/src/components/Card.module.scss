@@ -1,0 +1,177 @@
+.card {
+  width: 261px;
+  height: 231px;
+  padding: 12px 13px;
+  background: #262626;
+  border-radius: 23px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.draggable {
+    &:active {
+      transform: scale(1.1);
+    }
+
+    &:hover:not(.draggable-allowed) {
+      animation: shake 0.5s ease-in-out 3;
+    }
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    20%, 60% {
+      transform: rotate(5deg);
+    }
+    40%, 80% {
+      transform: rotate(-5deg);
+    }
+  }
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+
+  .ellipse1 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background: rgba(248, 205, 75, 0.15);
+    border-radius: 9999px;
+    border: 1px solid;
+  }
+
+  .newFileEmptyCommonFileContent {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+
+    .newFileEmptyCommonFileContentInner {
+      width: 11px;
+      height: 13px;
+      position: absolute;
+      left: 1.5px;
+      top: 0.5px;
+
+      .vector {
+        width: 11px;
+        height: 13px;
+        position: absolute;
+        border: 1px #F8CD4B solid;
+      }
+
+      .vector2529 {
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 7px;
+        top: 0;
+        border: 1px #F8CD4B solid;
+      }
+    }
+  }
+}
+
+.mainContent {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 11px;
+
+    .cardTitle {
+      color: white;
+      font-size: 14px;
+      font-family: 'IBM Plex Sans';
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.16px;
+      word-wrap: break-word;
+    }
+
+    .cardContent {
+      width: 218px;
+      color: rgba(255, 255, 255, 0.50);
+      font-size: 11px;
+      font-family: 'IBM Plex Sans';
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.16px;
+      word-wrap: break-word;
+    }
+  }
+
+  .actions {
+    width: 218px;
+    height: 18px;
+    position: relative;
+
+    .editButton {
+      width: 9px;
+      height: 12px;
+      position: absolute;
+      left: 209px;
+      top: 6px;
+
+      .vector {
+        width: 8px;
+        height: 9px;
+        position: absolute;
+        left: 1px;
+        top: 0;
+        border: 1px #F8CD4B solid;
+      }
+
+      .rectangle17 {
+        width: 9px;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        top: 11px;
+        background: #F8CD4B;
+        border-radius: 0.5px;
+      }
+    }
+
+    .readEverything {
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #F8CD4B;
+      font-size: 11px;
+      font-family: 'IBM Plex Sans';
+      font-weight: 400;
+      text-decoration: underline;
+      line-height: 18px;
+      letter-spacing: 0.16px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.scrollbar {
+  width: 5px;
+  height: 37px;
+  background: #141414;
+  border-radius: 7px;
+  border: 0.5px #8D8D8D solid;
+}

@@ -1,6 +1,7 @@
 @import 'carbon-components/scss/globals/scss/styles.scss';
 
-$app-background: #262626; // Dark Carbon Design background
+$app-background: #141414; // Dark Carbon Design background
+$blue-background: #001529; // Dark Carbon Design background
 $container-background: #393939; // Slightly lighter container background
 $text-color: #f4f4f4; // Light text color
 
@@ -8,51 +9,72 @@ $text-color: #f4f4f4; // Light text color
   display: flex;
   height: 100vh;
   width: 100%;
-  padding: 20px;
   background-color: $app-background;
   color: $text-color;
-
-  .mainContent {
-    width: 70%;
-    height: 100%;
-    padding: 20px;
-    background-color: $container-background;
-    border-radius: 8px;
-    position: relative;
-    .topContainer, .bottomContainer {
-      background-color: $container-background;
-      padding: 20px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      flex: 1;
+  flex-direction: column;
+  .topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .topBarLeft {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
     }
-    .textInputContainer {
-      position: fixed;
-      bottom: 20px;
-      left: 20rem;
-      width: calc(70% - 40px); // Width minus padding
-      background-color: $app-background;
-      padding: 20px;
-      border-radius: 8px;
+    .topBarRight {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
     }
   }
-
-  .rightSidebar {
-    width: 30%;
+  .mainContainer {
+    width: 100%;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
-    padding: 0 20px;
+    flex-direction: row;
 
-    .searchBar {
-      margin-bottom: 20px;
+    .textInputContainer {
+        position: fixed;
+        bottom: 20px;
+        left: 20rem;
+        width: calc(70% - 40px); // Width minus padding
+        background-color: $app-background;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+    .leftSidebar {
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+      .historyContainer {
+        .historyElement {
+          margin-bottom: 20px;
+        }
+      }
     }
-
-    .topContainer, .bottomContainer {
-      background-color: $container-background;
+  
+    .mainContent {
+      width: 70%;
+      height: 100%;
       padding: 20px;
+      background-color: $container-background;
       border-radius: 8px;
-      margin-bottom: 20px;
-      flex: 1;
+      position: relative;
+    }
+  
+    .rightSidebar {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+  
+      .searchBar {
+        margin-bottom: 20px;
+      }
     }
   }
 }

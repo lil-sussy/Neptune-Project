@@ -11,6 +11,7 @@
     "@types/node": "^16.18.97",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "antd": "^5.17.4",
     "carbon-components": "^10.58.12",
     "carbon-components-react": "^8.58.1",
     "framer-motion": "^11.2.10",
