@@ -1,42 +1,62 @@
 // Canvas.tsx
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useDrop } from "react-dnd";
 import { motion } from "framer-motion";
 import Card from "./Card";
 import styles from "./CardGrid.module.scss";
 
-const gridPositions = [
-	{ x: 0, y: 0 },
-	{ x: 1, y: 0 },
-	{ x: 2, y: 0 },
-	{ x: 0, y: 1 },
-	{ x: 1, y: 1 },
-	{ x: 2, y: 1 },
-];
+export interface Card {
+	id: number;
+	title: string;
+	content: string;
+}
+
+export interface GridState {
+	grid: (number | null)[];
+	cards: Card[];
+}
 
 const Canvas = () => {
-	const [cards, setCards] = useState([
+	const initialCards: Card[] = [
 		{ id: 1, title: "Card 1", content: "This is the content of card 1" },
 		{ id: 2, title: "Card 2", content: "This is the content of card 2" },
-	]);
-  const emptyGrid = Array(4).fill(null);
-  emptyGrid.push(1);
-  emptyGrid.push(2);
-	const [grid, setGrid] = useState(emptyGrid);
+	];
+
+	const initialGrid: (number | null)[] = Array(6).fill(null);
+	initialGrid[0] = 1;
+	initialGrid[1] = 2;
+
+	const [cards, setCards] = useState<Card[]>(initialCards);
+	const [grid, setGrid] = useState<(number | null)[]>(initialGrid);
+
+  const canvasRef = useRef<HTMLDivElement>(null);
 
 	const [{ isOver }, drop] = useDrop(() => ({
 		accept: "CARD",
-		drop: (item: any, monitor) => {
+		drop: (item: Card, monitor) => {
+      const cardID = Number(item.id);
 			const delta = monitor.getClientOffset();
-			if (delta) {
-				const x = Math.round(delta.x / 200);
-				const y = Math.round(delta.y / 150);
+			if (delta && canvasRef.current) {
+        const canvasRect = canvasRef.current.getBoundingClientRect();
+				const x = Math.round((delta.x - canvasRect.left) / 260) -1;
+				const y = Math.round((delta.y - canvasRect.top) / 230) -1;
 				const index = y * 3 + x;
-				setGrid((prev) => {
-					const newGrid = [...prev];
-					newGrid[index] = item.id;
-					return newGrid;
-				});
+				console.log(`Dropping card ${cardID} at x: ${x}, y: ${y}, index: ${index}`);
+
+				if (index >= 0 && index < grid.length) {
+					setGrid((prev) => {
+						const newGrid = [...prev];
+						const oldIndex = newGrid.findIndex((id) => id === cardID);
+						if (oldIndex !== -1) {
+							newGrid[oldIndex] = null;
+						}
+						newGrid[index] = cardID;
+						console.log(`Updated grid: ${JSON.stringify(newGrid)}`);
+						return newGrid;
+					});
+				} else {
+					console.error(`Calculated index ${index} is out of bounds`);
+				}
 			}
 		},
 		collect: (monitor) => ({
@@ -44,8 +64,14 @@ const Canvas = () => {
 		}),
 	}));
 
+  useEffect(() => {
+		if (canvasRef.current) {
+			drop(canvasRef.current);
+		}
+	}, [drop]);
+
 	return (
-		<div className={styles.canvas} ref={drop}>
+		<div className={styles.canvas} ref={canvasRef}>
 			{grid.map((cardId, index) => {
 				const card = cards.find((card) => card.id === cardId);
 				return (

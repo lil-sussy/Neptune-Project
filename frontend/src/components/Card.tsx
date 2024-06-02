@@ -2,6 +2,7 @@ import React from "react";
 import { useDrag } from "react-dnd";
 import { motion } from "framer-motion";
 import styles from "./Card.module.scss";
+import { CardIcon, EditIcon } from "./Icon";
 
 interface CardProps {
 	id: string;
@@ -24,7 +25,6 @@ const Card: React.FC<CardProps> = ({ id, title, content }) => {
 			ref={drag}
 			style={{ opacity: isDragging ? 0.5 : 1 }}
 			whileHover={{
-				scale: 1.1,
 				boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.2)",
 				transition: { duration: 0.3 },
 			}}
@@ -43,13 +43,7 @@ const Card: React.FC<CardProps> = ({ id, title, content }) => {
 			}}
 		>
 			<div className={styles.icon}>
-				<div className={styles.ellipse1}></div>
-				<div className={styles.newFileEmptyCommonFileContent}>
-					<div className={styles.newFileEmptyCommonFileContentInner}>
-						<div className={styles.vector}></div>
-						<div className={styles.vector2529}></div>
-					</div>
-				</div>
+        <CardIcon />
 			</div>
 			<div className={styles.mainContent}>
 				<div className={styles.container}>
@@ -58,13 +52,11 @@ const Card: React.FC<CardProps> = ({ id, title, content }) => {
 				</div>
 				<div className={styles.actions}>
 					<div className={styles.editButton}>
-						<div className={styles.vector}></div>
-						<div className={styles.rectangle17}></div>
+            <EditIcon />
 					</div>
 					<div className={styles.readEverything}>Read everything</div>
 				</div>
 			</div>
-			<div className={styles.scrollbar}></div>
 		</motion.div>
 	);
 };

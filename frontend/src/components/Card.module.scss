@@ -1,17 +1,22 @@
+$card-width: 260px;
+$card-height: 230px;
+
 .card {
-  width: 261px;
-  height: 231px;
+  width: $card-width;
+  height: $card-height;
   padding: 12px 13px;
   background: #262626;
   border-radius: 23px;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 12px;
   transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    cursor: pointer;
   }
 
   &.draggable {

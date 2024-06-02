@@ -1,0 +1,808 @@
+Debugger attached.
+
+> frontend@0.1.0 dev
+> react-scripts start
+
+Debugger attached.
+Debugger attached.
+Debugger attached.
+Debugger attached.
+(node:20622) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20622) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mfrontend[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.149:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:21:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:21:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[32mNo issues found.[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:21:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:21:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:17:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:22:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:17:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 34:22:[22m  'drop' is assigned a value but never used      [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:36:17[22m[39m
+[90mTS2552: [39mCannot find name 'canvasRef'. Did you mean 'Canvas'?
+  [0m [90m 34 |[39m 		drop[33m:[39m (item[33m:[39m [33mCard[39m[33m,[39m monitor) [33m=>[39m {
+   [90m 35 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+  [31m[1m>[22m[39m[90m 36 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+   [90m    |[39m 			             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 37 |[39m 				[36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m
+   [90m 38 |[39m 				[36mconst[39m x [33m=[39m [33mMath[39m[33m.[39mround(delta[33m.[39mx [33m/[39m [35m260[39m)[33m;[39m
+   [90m 39 |[39m 				[36mconst[39m y [33m=[39m [33mMath[39m[33m.[39mround(delta[33m.[39my [33m/[39m [35m230[39m)[33m;[39m[0m
+
+[31m[1mERROR in src/components/CardGrid.tsx:37:24[22m[39m
+[90mTS2552: [39mCannot find name 'canvasRef'. Did you mean 'canvasRect'?
+  [0m [90m 35 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+   [90m 36 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+  [31m[1m>[22m[39m[90m 37 |[39m 				[36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m
+   [90m    |[39m 				                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m 				[36mconst[39m x [33m=[39m [33mMath[39m[33m.[39mround(delta[33m.[39mx [33m/[39m [35m260[39m)[33m;[39m
+   [90m 39 |[39m 				[36mconst[39m y [33m=[39m [33mMath[39m[33m.[39mround(delta[33m.[39my [33m/[39m [35m230[39m)[33m;[39m
+   [90m 40 |[39m 				[36mconst[39m index [33m=[39m y [33m*[39m [35m3[39m [33m+[39m x[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 39:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 39:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:32:21[22m[39m
+[90mTS2304: [39mCannot find name 'useRef'.
+  [0m [90m 30 |[39m 	[36mconst[39m [grid[33m,[39m setGrid] [33m=[39m useState[33m<[39m(number [33m|[39m [36mnull[39m)[][33m>[39m(initialGrid)[33m;[39m
+   [90m 31 |[39m   
+  [31m[1m>[22m[39m[90m 32 |[39m   [36mconst[39m canvasRef [33m=[39m useRef[33m<[39m[33mHTMLDivElement[39m[33m>[39m([36mnull[39m)[33m;[39m
+   [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m
+   [90m 34 |[39m 	[36mconst[39m [{ isOver }[33m,[39m drop] [33m=[39m useDrop(() [33m=>[39m ({
+   [90m 35 |[39m 		accept[33m:[39m [32m"CARD"[39m[33m,[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 39:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                        [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 39:11:[22m  'canvasRect' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:38:26[22m[39m
+[90mTS18047: [39m'canvasRef.current' is possibly 'null'.
+  [0m [90m 36 |[39m 		drop[33m:[39m (item[33m:[39m [33mCard[39m[33m,[39m monitor) [33m=>[39m {
+   [90m 37 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+  [31m[1m>[22m[39m[90m 38 |[39m       [36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 39 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+   [90m 40 |[39m 				[36mconst[39m x [33m=[39m [33mMath[39m[33m.[39mround((delta[33m.[39mx [33m-[39m canvasRect[33m.[39mleft) [33m/[39m [35m260[39m)[33m;[39m
+   [90m 41 |[39m 				[36mconst[39m y [33m=[39m [33mMath[39m[33m.[39mround((delta[33m.[39my [33m-[39m canvasRect[33m.[39mtop) [33m/[39m [35m230[39m)[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:66:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 64 |[39m 	}))[33m;[39m
+   [90m 65 |[39m
+  [31m[1m>[22m[39m[90m 66 |[39m   useEffect(() [33m=>[39m {
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 67 |[39m 		[36mif[39m (canvasRef[33m.[39mcurrent) {
+   [90m 68 |[39m 			drop(canvasRef[33m.[39mcurrent)[33m;[39m
+   [90m 69 |[39m 		}[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:66:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 64 |[39m 	}))[33m;[39m
+   [90m 65 |[39m
+  [31m[1m>[22m[39m[90m 66 |[39m   useEffect(() [33m=>[39m {
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 67 |[39m 		[36mif[39m (canvasRef[33m.[39mcurrent) {
+   [90m 68 |[39m 			drop(canvasRef[33m.[39mcurrent)[33m;[39m
+   [90m 69 |[39m 		}[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 2:35:[22m   'use' is defined but never used                [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 2:35:[22m   'use' is defined but never used                [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:2:35[22m[39m
+[90mTS2305: [39mModule '"react"' has no exported member 'use'.
+  [0m [90m 1 |[39m [90m// Canvas.tsx[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m [33mReact[39m[33m,[39m { useState[33m,[39m useRef[33m,[39m use } [36mfrom[39m [32m"react"[39m[33m;[39m
+   [90m   |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m [36mimport[39m { useDrop } [36mfrom[39m [32m"react-dnd"[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m"framer-motion"[39m[33m;[39m
+   [90m 5 |[39m [36mimport[39m [33mCard[39m [36mfrom[39m [32m"./Card"[39m[33m;[39m[0m
+
+[31m[1mERROR in src/components/CardGrid.tsx:66:3[22m[39m
+[90mTS2304: [39mCannot find name 'useEffect'.
+  [0m [90m 64 |[39m 	}))[33m;[39m
+   [90m 65 |[39m
+  [31m[1m>[22m[39m[90m 66 |[39m   useEffect(() [33m=>[39m {
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 67 |[39m 		[36mif[39m (canvasRef[33m.[39mcurrent) {
+   [90m 68 |[39m 			drop(canvasRef[33m.[39mcurrent)[33m;[39m
+   [90m 69 |[39m 		}[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:40:62[22m[39m
+[90mTS2363: [39mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+  [0m [90m 38 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+   [90m 39 |[39m         [36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m
+  [31m[1m>[22m[39m[90m 40 |[39m 				[36mconst[39m x [33m=[39m [33mMath[39m[33m.[39mround((delta[33m.[39mx [33m-[39m canvasRect[33m.[39mleft) [33m/[39m [35m260[39m) [33m-[39m[32m``[39m[33m;[39m
+   [90m    |[39m 				                                                         [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 41 |[39m 				[36mconst[39m y [33m=[39m [33mMath[39m[33m.[39mround((delta[33m.[39my [33m-[39m canvasRect[33m.[39mtop) [33m/[39m [35m230[39m)[33m;[39m
+   [90m 42 |[39m 				[36mconst[39m index [33m=[39m y [33m*[39m [35m3[39m [33m+[39m x[33m;[39m
+   [90m 43 |[39m 				console[33m.[39mlog([32m`Dropping card ${item.id} at x: ${x}, y: ${y}, index: ${index}`[39m)[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:52:35[22m[39m
+[90mTS2304: [39mCannot find name 'un'.
+  [0m [90m 50 |[39m 							newGrid[oldIndex] [33m=[39m [36mnull[39m[33m;[39m
+   [90m 51 |[39m 						}
+  [31m[1m>[22m[39m[90m 52 |[39m 						newGrid[index] [33m=[39m item[33m.[39mid [36mas[39m un[33m;[39m
+   [90m    |[39m 						                            [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m 						console[33m.[39mlog([32m`Updated grid: ${JSON.stringify(newGrid)}`[39m)[33m;[39m
+   [90m 54 |[39m 						[36mreturn[39m newGrid[33m;[39m
+   [90m 55 |[39m 					})[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:52:35[22m[39m
+[90mTS2304: [39mCannot find name 'unko'.
+  [0m [90m 50 |[39m 							newGrid[oldIndex] [33m=[39m [36mnull[39m[33m;[39m
+   [90m 51 |[39m 						}
+  [31m[1m>[22m[39m[90m 52 |[39m 						newGrid[index] [33m=[39m item[33m.[39mid [36mas[39m unko[33m;[39m
+   [90m    |[39m 						                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m 						console[33m.[39mlog([32m`Updated grid: ${JSON.stringify(newGrid)}`[39m)[33m;[39m
+   [90m 54 |[39m 						[36mreturn[39m newGrid[33m;[39m
+   [90m 55 |[39m 					})[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:52:35[22m[39m
+[90mTS2304: [39mCannot find name 'unkown'.
+  [0m [90m 50 |[39m 							newGrid[oldIndex] [33m=[39m [36mnull[39m[33m;[39m
+   [90m 51 |[39m 						}
+  [31m[1m>[22m[39m[90m 52 |[39m 						newGrid[index] [33m=[39m item[33m.[39mid [36mas[39m unkown [36mas[39m number[33m;[39m
+   [90m    |[39m 						                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m 						console[33m.[39mlog([32m`Updated grid: ${JSON.stringify(newGrid)}`[39m)[33m;[39m
+   [90m 54 |[39m 						[36mreturn[39m newGrid[33m;[39m
+   [90m 55 |[39m 					})[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:52:35[22m[39m
+[90mTS2304: [39mCannot find name 'unkonwn'.
+  [0m [90m 50 |[39m 							newGrid[oldIndex] [33m=[39m [36mnull[39m[33m;[39m
+   [90m 51 |[39m 						}
+  [31m[1m>[22m[39m[90m 52 |[39m 						newGrid[index] [33m=[39m item[33m.[39mid [36mas[39m unkonwn [36mas[39m number[33m;[39m
+   [90m    |[39m 						                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m 						console[33m.[39mlog([32m`Updated grid: ${JSON.stringify(newGrid)}`[39m)[33m;[39m
+   [90m 54 |[39m 						[36mreturn[39m newGrid[33m;[39m
+   [90m 55 |[39m 					})[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:13:[22m  'cardID' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:13:[22m  'cardID' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/src/components/CardGrid.tsx: Unexpected token, expected "," (37:35)
+[0m [90m 35 |[39m 		accept[33m:[39m [32m"CARD"[39m[33m,[39m
+ [90m 36 |[39m 		drop[33m:[39m (item[33m:[39m [33mCard[39m[33m,[39m monitor) [33m=>[39m {
+[31m[1m>[22m[39m[90m 37 |[39m       [36mconst[39m cardID [33m=[39m [33mNumber[39m(item[33m.[39mid[33m;[39m
+ [90m    |[39m                                    [31m[1m^[22m[39m
+ [90m 38 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+ [90m 39 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+ [90m 40 |[39m         [36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m[0m
+[1m[31mERROR[39m[22m in [1m./src/components/CardGrid.tsx[39m[22m
+Module build failed (from ./node_modules/react-scripts/node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/src/components/CardGrid.tsx: Unexpected token, expected "," (37:35)
+
+[0m [90m 35 |[39m 		accept[33m:[39m [32m"CARD"[39m[33m,[39m
+ [90m 36 |[39m 		drop[33m:[39m (item[33m:[39m [33mCard[39m[33m,[39m monitor) [33m=>[39m {
+[31m[1m>[22m[39m[90m 37 |[39m       [36mconst[39m cardID [33m=[39m [33mNumber[39m(item[33m.[39mid[33m;[39m
+ [90m    |[39m                                    [31m[1m^[22m[39m
+ [90m 38 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+ [90m 39 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+ [90m 40 |[39m         [36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m[0m
+    at constructor (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:351:19)
+    at TypeScriptParserMixin.raise (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:3233:19)
+    at TypeScriptParserMixin.unexpected (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:3253:16)
+    at TypeScriptParserMixin.expect (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:3557:28)
+    at TypeScriptParserMixin.parseCallExpressionArguments (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10742:14)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10671:29)
+    at TypeScriptParserMixin.parseSubscript (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10608:19)
+    at TypeScriptParserMixin.parseSubscript (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:8939:18)
+    at TypeScriptParserMixin.parseSubscripts (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10581:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10572:17)
+    at TypeScriptParserMixin.parseUpdate (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10551:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10529:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9430:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10383:61)
+    at TypeScriptParserMixin.parseExprOps (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10388:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10365:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10326:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9379:20)
+    at /home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10296:39
+    at TypeScriptParserMixin.allowInAnd (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11913:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10296:17)
+    at TypeScriptParserMixin.parseVar (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12846:91)
+    at TypeScriptParserMixin.parseVarStatement (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12692:10)
+    at TypeScriptParserMixin.parseVarStatement (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9074:31)
+    at TypeScriptParserMixin.parseStatementContent (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12304:23)
+    at TypeScriptParserMixin.parseStatementContent (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9104:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12221:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12201:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12778:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12771:10)
+    at TypeScriptParserMixin.parseBlock (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:12759:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11598:24)
+    at TypeScriptParserMixin.parseArrowExpression (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11573:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11189:12)
+    at TypeScriptParserMixin.parseExprAtom (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:6781:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10568:23)
+    at TypeScriptParserMixin.parseUpdate (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10551:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10529:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9430:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10383:61)
+    at TypeScriptParserMixin.parseExprOps (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10388:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10365:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10326:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:9379:20)
+    at /home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10296:39
+    at TypeScriptParserMixin.allowInAnd (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11918:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:10296:17)
+    at TypeScriptParserMixin.parseObjectProperty (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11452:83)
+    at TypeScriptParserMixin.parseObjPropValue (/home/lilsussyjett/Desktop/SexualContent/ActualFuckingDevLab/AIProjects/NeputeProjects/Neptune-Project/frontend/node_modules/@babel/parser/lib/index.js:11477:100)
+
+[1m[31mERROR[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 37:35:[22m  Parsing error: ')' expected
+
+webpack compiled with [1m[31m2 errors[39m[22m

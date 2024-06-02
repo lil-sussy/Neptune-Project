@@ -1,15 +1,18 @@
+@import './Card.module.scss';
+
+
 .canvas {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(3, $card-width);
+  grid-template-rows: repeat(2, $card-height);
   gap: 10px;
   padding: 20px;
   background-color: #f0f0f0;
 }
 
 .gridItem {
-  width: 260px;
-  height: 220px;
+  width: $card-width;
+  height: $card-height;
   background-color: #ffffff;
   border: 2px dashed #ccc;
   display: flex;
