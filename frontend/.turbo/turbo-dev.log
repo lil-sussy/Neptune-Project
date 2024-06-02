@@ -806,3 +806,154 @@ src/components/CardGrid.tsx
   [1mLine 37:35:[22m  Parsing error: ')' expected
 
 webpack compiled with [1m[31m2 errors[39m[22m
+[31m[1mERROR in src/components/CardGrid.tsx:37:36[22m[39m
+[90mTS1005: [39m')' expected.
+  [0m [90m 35 |[39m 		accept[33m:[39m [32m"CARD"[39m[33m,[39m
+   [90m 36 |[39m 		drop[33m:[39m (item[33m:[39m [33mCard[39m[33m,[39m monitor) [33m=>[39m {
+  [31m[1m>[22m[39m[90m 37 |[39m       [36mconst[39m cardID [33m=[39m [33mNumber[39m(item[33m.[39mid[33m;[39m
+   [90m    |[39m                                    [31m[1m^[22m[39m
+   [90m 38 |[39m 			[36mconst[39m delta [33m=[39m monitor[33m.[39mgetClientOffset()[33m;[39m
+   [90m 39 |[39m 			[36mif[39m (delta [33m&&[39m canvasRef[33m.[39mcurrent) {
+   [90m 40 |[39m         [36mconst[39m canvasRect [33m=[39m canvasRef[33m.[39mcurrent[33m.[39mgetBoundingClientRect()[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:13:[22m  'cardID' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+  [1mLine 37:13:[22m  'cardID' is assigned a value but never used    [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:17:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:17:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/components/CardGrid.tsx
+  [1mLine 8:18:[22m   'Card' is already defined                      [33m[4m@typescript-eslint/no-redeclare[24m[39m
+  [1mLine 29:16:[22m  'setCards' is assigned a value but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/components/CardGrid.tsx

@@ -48,9 +48,17 @@ const Canvas = () => {
 						const newGrid = [...prev];
 						const oldIndex = newGrid.findIndex((id) => id === cardID);
 						if (oldIndex !== -1) {
-							newGrid[oldIndex] = null;
+							if (newGrid[index] !== null) {
+								const swapCardID = newGrid[index];
+								newGrid[oldIndex] = swapCardID;
+								newGrid[index] = cardID;
+							} else {
+								newGrid[oldIndex] = null;
+								newGrid[index] = cardID;
+							}
+						} else {
+							newGrid[index] = cardID;
 						}
-						newGrid[index] = cardID;
 						console.log(`Updated grid: ${JSON.stringify(newGrid)}`);
 						return newGrid;
 					});
