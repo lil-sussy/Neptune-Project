@@ -78,10 +78,10 @@
       "name": "server 3000 react npm start",
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": "turbo",
       "runtimeArgs": [
         "run",
-        "start"
+        "dev"
       ],
       "cwd": "${workspaceFolder}/frontend",
       "console": "integratedTerminal"
